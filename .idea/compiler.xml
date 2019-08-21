@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01simplefactory" />
+        <module name="02absfactory" />
+        <module name="03builder" />
+        <module name="04prototype" />
+        <module name="05adapter" />
+        <module name="06bridge" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
