@@ -14,6 +14,7 @@
         <module>04prototype</module>
         <module>05adapter</module>
         <module>06bridge</module>
+        <module>07faced</module>
     </modules>
     <packaging>pom</packaging>
 
