@@ -8,6 +8,7 @@
     <artifactId>designpatterns</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>00model</module>
         <module>01simplefactory</module>
         <module>02absfactory</module>
         <module>03builder</module>
@@ -15,6 +16,12 @@
         <module>05adapter</module>
         <module>06bridge</module>
         <module>07faced</module>
+        <module>08decorator</module>
+        <!--组合模式-->
+        <module>09component</module>
+        <!--享元模式-->
+        <module>10flyweight</module>
+
     </modules>
     <packaging>pom</packaging>
 
@@ -24,11 +31,13 @@
         <java.version>1.8</java.version>
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>1.18.4</version>
-        </dependency>
-    </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.4</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
