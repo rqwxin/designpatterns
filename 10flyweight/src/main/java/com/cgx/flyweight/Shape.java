@@ -1,4 +1,4 @@
-package com.cgx;
+package com.cgx.flyweight;
 
 /**********
  * @program: designpatterns
