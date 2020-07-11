@@ -21,6 +21,9 @@
         <module>09component</module>
         <!--享元模式-->
         <module>10flyweight</module>
+        <!--代理模式-->
+        <module>11proxy</module>
+
 
     </modules>
     <packaging>pom</packaging>
@@ -68,6 +71,12 @@
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-aop</artifactId>
                 <version>${spring.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>8.0.16</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
