@@ -23,6 +23,8 @@
         <module>10flyweight</module>
         <!--代理模式-->
         <module>11proxy</module>
+        <module>12state</module>
+        <module>13template</module>
 
 
     </modules>
@@ -81,5 +83,10 @@
         </dependencies>
     </dependencyManagement>
 
-
+<dependencies>
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+    </dependency>
+</dependencies>
 </project>
